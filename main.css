@@ -1,0 +1,114 @@
+*{margin: 0; padding: 0%; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.navbar .nav-links{width: 100%; display: flex; justify-content: space-around;background-color:  rgb(8, 8, 24); padding-top: 20px;}
+.nav-links .left-nav h1{color: white; line-height: 27px; font-size: 24px;}
+.nav-links .left-nav a{text-decoration: none;}
+.navbar .nav-links .left-nav{display: flex;}
+.nav-links .left-nav span{color: rgb(8, 8, 24); border: 1px solid white; background-color: white; border-radius: 5px; padding: 3px 10px; font-size: 30px; font-weight: bold;}
+.navbar .nav-links .right-nav{display: flex;} 
+.navbar .nav-links .right-nav h4{color: white; padding-top: 18px;} 
+.navbar .nav-links .right-nav a{text-decoration: none; color: white;} 
+.navbar .nav-links .right-nav span{color: white; font-size: 40px;} 
+.navbar .nav-links .right-nav p{border: 1px solid rgb(185, 185, 12); padding: 9px; border-radius: 5px; background-color: rgb(179, 179, 19);}
+.navbar .nav-links .right-nav select{background-color: inherit; border: none; color: white;}
+.navbar .right-nav{gap: 20px;}
+
+.row1 .grid1{width: 100%; height: 500px; display: grid; grid-template-columns: 1fr 1fr; align-items: center; justify-items: center; background-color: rgb(37, 37, 122);}
+.grid1 .sub-colA .sub-col{display: grid; grid-template-columns: auto auto auto}
+.grid1 .sub-colA h1{padding-bottom: 15px; line-height: 45px; font-weight: bold; color: white;}
+.grid1 .sub-colA p{padding-bottom: 20px; font-weight: 600; color: white;}
+.grid1 .sub-colA .sub-col a{text-decoration: none; color: white; border: 1px solid  rgb(46, 114, 141); grid-gap: 5px; background-color: rgb(46, 114, 141); border-radius: 5px; padding: 10px; column-gap: 2px; margin: 0px 5px;}
+.grid1 .sub-colA .sub-col .red-btn{background-color: orangered; border: 1px solid orangered;}
+.grid1 .sub-colB .cap-leta h1{font-weight: bold; padding-bottom: 15px; line-height: 45px;}
+.grid1 .sub-colB p{padding-bottom: 30px; font-weight: 600; line-height: 25px;}
+.grid1 .sub-colB{background-color: white; text-align: center; padding: 30px;}
+.sub-colB .main-col .inner-col{display: grid; grid-template-columns: auto auto;}
+.main-col .inner-col .colA span{color: orangered;}
+.main-col .inner-col .colA h2{font-size: 20px;}
+.main-col .inner-col .colA p{font-size: 10px;}
+.main-col .inner-col .colB{display: grid; grid-template-columns: auto auto;}
+.main-col .inner-col .colB a{text-decoration: none; color: rgb(46, 114, 141);}
+.main-col .inner-col .colB span{color: white; border: 1px solid skyblue; background-color: rgb(46, 114, 141); border-radius: 5px; font-size: 30px; margin-left: 100px; padding: 0px 5px;}
+.main-col .inner-col .colB p{margin-right: 20px;}
+.grid1 .sub-colB .kls a{text-decoration: none; background-color: rgb(4, 4, 27); color: white; padding: 4px; border-radius: 3px; font-size: 13px;}
+
+.grid-1{display: grid; grid-template-columns: repeat(10, 1fr); grid-template-rows: repeat(2, 1fr); color: white; column-gap: 1px; justify-content: center; cursor: pointer; background-color: rgb(20, 82, 107);}
+.grid-1 .logo{background-color: black; grid-column: 1/6; grid-row: 1/2;}
+.logo {width: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: center; justify-content: center; justify-items: center;}
+.grid-1 .logo img{width: 70%; margin-left: 30px;}
+.grid-1 .logo .col a{text-decoration: none; color: white; font-size: 14px;}
+.grid-1 .logo .col{width: 100%;}
+.grid-1 .logo .col h1{ color: white; font-size: 25px; line-height: 30px; padding-bottom: 10px; font-weight: 400;}
+.bird{background-color: black; grid-column: 6/11; grid-row: 1/2;}
+.grid-1 .bird{width: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: center;}
+.grid-1 .bird .col1{width: 100%;}
+.grid-1 .bird .col2{width: 100%;}
+.grid-1 .bird .col2 a{text-decoration: none; color: white; font-size: 14px;}
+.grid-1 .bird .col2 h1{color: white; font-size: 25px; line-height: 30px; padding-bottom: 10px; font-weight: 400;}
+.grid-1 .bird img{width: 30%; margin-left: 50px;}
+.new{background-color: rgb(46, 114, 141); grid-column: 1/5; grid-row: 2/3;}
+.letter{background-color: rgb(46, 114, 141); grid-column: 5/7; grid-row: 2/3;}
+.letter:hover{translate: 20px; transition: linear 1s;}
+.letter h1{align-items: center;}
+.about{background-color: rgb(46, 114, 141); grid-column: 7/9; grid-row: 2/3;}
+.about:hover{translate: 20px; transition: linear 1s;}
+.about h1{font-weight: 100; text-align: center; }
+.store{background-color: rgb(46, 114, 141); grid-column: 9/11; grid-row: 2/3;}
+.store:hover{translate: 20px; transition: linear 1s;}
+.store h1{font-weight: 100; align-items: center;}
+
+.grid-2{display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 1px; background-color: rgb(78, 72, 72); cursor: pointer; border: 1px solid  rgb(26, 22, 22);  border-left: none;}
+.grid-2 .left-up{grid-column: 1/2; grid-row: 1/2; background-color: lime; text-align: center;padding-top: 30px;}
+.grid-2 .left-up h1{color: white; padding: 30px 0px 50px; }
+.grid-2 .left-down{grid-column: 1/2; grid-row: 2/3; background-color: lime; text-align: center; padding: 50px 0px; color: white;}
+.grid-2 .left-down p{font-size: 23px; padding-top: 30px;}
+.grid-2 .center{grid-column: 2/3; grid-row: 1/3; background-color: lime; text-align: center; padding-top: 160px; color: white; align-items: center;}
+.grid-2 .center p{color: rgb(56, 53, 53); padding-top: 40px;}
+.grid-2 .center h1{font-size: bold; font-size: 60px;}
+.grid-2 .center span{font-weight: normal;}
+.grid-2 .right-up{grid-column: 3/4; grid-row: 1/2; background-color: lime; text-align: center; color: white; padding-top: 30px;}
+.grid-2 .right-up p{font-size: 30px; padding-top: 30px; margin-left: 40px;}
+.grid-2 .right-down{grid-column: 3/4; grid-row: 2/3; background-color: lime; text-align: center; padding-top: 30px; color: white; font-size: 20px;}
+.grid-2 .right-down p{padding-top: 30px;}
+
+
+
+.grid-3{display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3,1fr); cursor: pointer; grid-gap: 1px; background-color: rgb(26, 22, 22); border: 1px solid  rgb(26, 22, 22); border-left: none;}
+.grid-3 .always{grid-column: 1/2; grid-row: 1/3; background-color: rgb(146, 49, 146); text-align: center; padding: 180px }
+.grid-3 .always p{color: white; font-size: 20px;}
+.grid-3 .always h1{color: white; font-size: 50px;}
+.grid-3 .press{grid-column: 1/2; grid-row: 3/4; background-color: rgb(146, 49, 146); text-align: center; padding-top: 100px; color: white; font-size: 30px;}
+.grid-3 .cybersec{display: flex; width: 100%;}
+.grid-3 .cybersec .col{width: 45%;}
+.grid-3 .cybersec .col img{width: 40%; object-fit: contain; padding: 50px 0px 0px 50px;}
+.grid-3 .cybersec{grid-column: 2/3; grid-row: 1/2; background-color: rgb(146, 49, 146); align-items: center; color: white;}
+.grid-3 .cybersec h5{color: white; padding-top: 70px; font-size: 18px; line-height: 25px;}
+.grid-3 .cybersec p{color: white; padding-top: 15px;}
+.grid-3 .whitepapers{grid-column: 2/3; grid-row: 2/3; background-color: rgb(146, 49, 146); font-size: 30px;}
+.grid-3 .whitepapers p{padding: 50px 0px 0px 50px; color: white;}
+.grid-3 .blog{grid-column: 2/3; grid-row: 3/4;background-color: rgb(146, 49, 146); font-size: 30px;}
+.grid-3 .blog p{padding: 50px 0px 0px 50px; color: white;}
+
+.grid-4{display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); cursor: pointer;  background-color: rgb(26, 22, 22); grid-gap: 1px;}
+.grid-4 .nexus{background-color: rgb(46, 114, 141); grid-column: 1/2; grid-row: 1/2; text-align: center; padding: 100px;}
+.grid-4 .block{background-color: rgb(46, 114, 141); grid-column: 1/2; grid-row: 2/3;text-align: center; padding: 100px;}
+.grid-4 .pack{background-color: rgb(46, 114, 141); grid-column: 2/3; grid-row: 1/2;text-align: center; padding: 100px;}
+.grid-4 .syzygal{background-color: rgb(46, 114, 141); grid-column: 2/3; grid-row: 2/3; text-align: center; padding: 100px;}
+.grid-4 .brands{background-color: rgb(46, 114, 141); grid-template-columns: 3/4; grid-row: 1/3; text-align: center; padding-top: 290px; line-height: 50px;}
+.grid-4 h4{color: white; text-align: start; padding-left: 40px;}
+.grid-4 h1{color: white; font-size: 50px }
+.grid-4 p{color: rgb(51, 47, 47); font-size: 20px; text-align: start; padding-left: 40px;}
+
+.grid-5{display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); grid-gap: 1px; background-color: rgb(26, 22, 22); border: 1px solid  rgb(26, 22, 22);  border-left: none;}
+.grid-5 .talk{grid-column: 1/3; grid-row: 1/2; background-color: rgb(196, 196, 7);}
+.grid-5 .talk{display: flex; justify-content : space-evenly; align-items: center; padding: 50px;}
+.grid-5 .talk h1{color: white; font-size: 50px;}
+.grid-5 .talk p{color: white; font-size: 20px; line-height: 30px;}
+.grid-5 .login{grid-column: 1/4; grid-row: 2/3; background-color: black; color: gainsboro;}
+.grid-5 .login{width: 100%; display: flex; justify-content: space-evenly; padding-top: 40px;}
+.grid-5 .login .link{width: 40%; display: flex; justify-content: space-evenly; padding-top: 30px;}
+.grid-5 .login .link span{font-size: 25px;}
+.grid-5 .login .link a{text-decoration: none; color: gainsboro;}
+.grid-5 .login .col2 p{line-height: 20px; text-align: right;}
+.grid-5 .login .col2 span{font-size: 25px;}
+.grid-5 .arrow{grid-column: 3/4; grid-row: 1/2; background-color: rgb(196, 196, 7);}
